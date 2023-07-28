@@ -33,7 +33,7 @@ variable "subnet_prefix" {
 
 variable "machine_type" {
   description = "Specifies the GCP instance type."
-  default     = "g1-small"
+  default     = "e2-micro"
 }
 
 variable "height" {
